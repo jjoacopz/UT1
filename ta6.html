@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    <h1>Encuesta de Preferencias</h1>
+
+    <form action="#" method="post">
+        <h2>1. ¿Cuál es tu género favorito de música?</h2>
+        <select name="genero_musical" multiple size="4">
+            <option value="rock">Rock</option>
+            <option value="pop">Cachengue</option>
+            <option value="jazz">Trap</option>
+            <option value="clasica">Rap</option>
+        </select>
+        <br><br>
+
+        <h2>2. ¿Con qué frecuencia escuchas música?</h2>
+        <label>
+            <input type="radio" name="frecuencia" value="diario"> Diario
+        </label><br>
+        <label>
+            <input type="radio" name="frecuencia" value="semanal"> Varias veces a la semana
+        </label><br>
+        <label>
+            <input type="radio" name="frecuencia" value="mensual"> Algunas veces al mes
+        </label><br>
+
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Restablecer">
+    </form>
+
+</body>
+</html>
