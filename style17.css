@@ -1,0 +1,64 @@
+/* Estilo general para el body */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para la tarjeta */
+.card {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo para el avatar */
+.avatar {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el título */
+h2 {
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para el párrafo */
+p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Estilo para el botón */
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

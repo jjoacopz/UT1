@@ -1,0 +1,50 @@
+/* Estilos generales */
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos por defecto (Pantallas grandes - 1440px) */
+body {
+    background-color: red;
+}
+
+p {
+    font-size: 24px;
+}
+
+img {
+    width: 50%;
+    max-width: 100%;
+}
+
+/* Pantallas medianas (768px) */
+@media (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    img {
+        width: 70%;
+    }
+}
+
+/* Pantallas pequeñas (425px) */
+@media (max-width: 425px) {
+    body {
+        background-color: blue;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        width: 100%;
+    }
+}

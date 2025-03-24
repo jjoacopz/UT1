@@ -1,0 +1,7 @@
+/* Estilos solo para los <p> dentro de un <div class="container"> */
+.container p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}

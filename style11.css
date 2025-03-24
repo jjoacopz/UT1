@@ -1,0 +1,23 @@
+/* Estilos para los elementos impares (párrafos 1, 3 y 5) */
+.odd {
+    background-color: pink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* Estilos adicionales para el tercer elemento */
+#third {
+    font-size: 24px;
+}
+
+/* Estilos para el segundo elemento (ID único) */
+#second {
+    color: blue;
+    font-size: 36px;
+}
+
+/* Estilos para el cuarto elemento (ID único) */
+#fourth {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
